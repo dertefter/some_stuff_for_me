@@ -55,7 +55,7 @@ def get_for_package_config(package_config):
         filled_stars_count = max(0, min(5, round(score)))
         empty_stars_count = 5 - filled_stars_count
 
-        stars_string = ('★' * filled_stars_count) + ('☆' * empty_stars_count)
+        stars_string = ('★' * filled_stars_count) + ('✰' * empty_stars_count)
         rating_text = f"{stars_string}"
 
         rating_filename = f"{package_name}_rating.svg"
